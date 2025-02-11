@@ -9,7 +9,7 @@ var links = [
 
 export function HeaderFooterLinks({ isHeader = true }) {
     return(
-        <div className="header-section right-section flex-center">
+        <div className="header-section right-section flex-bottom flex-top">
             {
                 links.map(item => {
                     return (

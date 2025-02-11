@@ -4,7 +4,7 @@ import { HeaderFooterLinks } from "../HeadeFooterLinks/HeaderFooterLinks.js";
 
 export function Header() {
     return (
-        <header>
+        <header className="p-r-10">
             <div className="header-section left-section">
                 <p className="logo-text bold header-text header-element">
                     <Logo />

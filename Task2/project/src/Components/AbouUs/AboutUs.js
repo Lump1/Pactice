@@ -108,7 +108,7 @@ export function AboutUs(props) {
                     {
                         benefitsOfWorking.map(item => {
                             return (
-                                <ContentCard bgcolor="#F4F6FC" title={item.title} text={item.text} imgUrl={item.url}></ContentCard>
+                                <ContentCard bgcolor="#F4F6FC" title={item.title} text={item.text} imgUrl={item.url} isIcon={true}></ContentCard>
                             );
                         })
                     }

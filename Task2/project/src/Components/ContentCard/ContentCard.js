@@ -11,7 +11,7 @@ function switcher(element, url) {
 
 export function ContentCard(props) {
     return (
-        <div class={`main-content content-card ${props.isIcon ? null : "flex-container"}`} style={{backgroundColor: `${props.bgcolor}`}}>
+        <div class={`main-content content-card ${props.isIcon ? null : "flex-container-col"}`} style={{backgroundColor: `${props.bgcolor}`}}>
             
             {
                 switcher(props.imgType, props.imgUrl)

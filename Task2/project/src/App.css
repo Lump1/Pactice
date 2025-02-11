@@ -117,16 +117,16 @@ footer {
   grid-auto-rows: 1fr;
 }
 .main-subcontainer-grid-2 {
-  grid-template-columns: auto auto;
+  grid-template-columns: calc(100% / 2) calc(100% / 2);
 }
 .main-subcontainer-grid-3 {
-  grid-template-columns: auto auto auto;
+  grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
 }
 .main-subcontainer-grid-4 {
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4);
 }
 .main-subcontainer-grid-5 {
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5);
 }
 
 
@@ -337,7 +337,7 @@ footer {
 
 .sm-icon {
   width: 32px;
-  height: auto;
+  height: 32px;
 }
 
 .super-sm-icon {
@@ -422,7 +422,7 @@ div.space-around {
   width: 25%;
 }
 
-.p-5, .p10, .p-15, .p-20, .p-25, .p-30, .p-50, .p-75, .p-100, .p-b-0, .p-t-0, .p-r-0, .p-l-0, .p-b-100, .p-t-100, .p-r-100, .p-l-100 {
+.p-5, .p10, .p-15, .p-20, .p-25, .p-30, .p-50, .p-75, .p-100, .p-b-0, .p-t-0, .p-r-0, .p-l-0, .p-b-100, .p-t-100, .p-r-100, .p-l-100, .p-r-10 {
   box-sizing: border-box;
 }
 
@@ -471,6 +471,9 @@ div.space-around {
 }
 .p-l-100 {
   padding-left: 100px;
+}
+.p-r-10 {
+  padding-right: 10px;
 }
 .p-r-100 {
   padding-right: 100px;
