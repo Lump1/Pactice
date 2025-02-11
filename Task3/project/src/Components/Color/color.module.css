@@ -1,0 +1,34 @@
+.color {
+    /* min-width: 20%; */
+    width: calc(20%);
+    height: calc((100vh / 4) - (10vh / 4));
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid rgba(48, 48, 48, 0.150);
+}
+
+.copyButton {
+    margin: auto auto 0 auto;
+    transform: translateY(50%);
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+
+    font-size: 20px;
+}
+
+.colorName {
+    margin-top: auto;
+    margin-left: auto;
+    color: white;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

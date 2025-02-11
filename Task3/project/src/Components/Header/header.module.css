@@ -1,0 +1,40 @@
+.header {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(48, 48, 48, 0.5);
+    box-sizing: border-box;
+}
+
+.backButton, .soundButton {
+    font-size: 20px;
+    font-weight: 500;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.soundButton {
+    font-size: 32px;
+}
+
+.paletteName {
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.backButton, .soundButton, .paletteName {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+}
