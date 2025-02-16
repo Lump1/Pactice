@@ -4,14 +4,16 @@ import { Pagination } from '../Pagination/Pagination';
 import styles from "./postscontainer.module.css"
 import { Search } from '../Search/Search';
 import { TagsSelect } from '../TagsSelect/TagsSelect';
+import { Sorting } from '../Sorting/Sorting';
 
 export function PostContainer({dbWorker}) {
     const postsSelector = useSelector(state => state.posts?.posts || []);
 
     return (
         <div className={styles.postsUpperContainer}>
-            <div style={{width: "100%", display: "flex"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center", gap: "1vw"}}>
                 <TagsSelect dbWorker={dbWorker}></TagsSelect>
+                <Sorting dbWorker={dbWorker}></Sorting>
                 <Search dbWorker={dbWorker}></Search>
             </div>
             <div className={styles.postsContainer}>

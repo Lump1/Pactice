@@ -19,7 +19,8 @@ export class dbWorker {
 
         await fetch(requestLink).then(async (data) => {
             const jsonData = await data.json();
-            this.#setPostsState(jsonData);
+            this.#setPostsState(jsonData["posts"]);
+            this.#setPagesState(jsonData["pagesCount"])
         }).catch(error => console.log(error));
     }
 

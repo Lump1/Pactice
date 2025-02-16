@@ -6,10 +6,10 @@
       "description": "Exploring the principles of user interface design.",
       "text": "UI design is all about creating intuitive and visually appealing interfaces. To achieve this, designers must understand principles such as visual hierarchy, contrast, balance, and usability. A well-crafted UI enhances the user experience, guiding users effortlessly through digital environments. Tools like Figma, Sketch, and Adobe XD have revolutionized UI design, making it more accessible and efficient.",
       "account": {
-        "imgUrl": "https://example.com/user1.jpg",
+        "imgUrl": "",
         "name": "Jane Doe"
       },
-      "postImageUrl": "https://example.com/ui-design.jpg",
+      "postImageUrl": "https://i.ibb.co/4ztpFmr/6.jpg",
       "date": "2025-02-11"
     },
     {
@@ -18,10 +18,10 @@
       "description": "Understanding the core concepts of programming logic.",
       "text": "Programming is based on logic, algorithms, and problem-solving techniques. To become proficient, one must grasp fundamental concepts like loops, conditionals, functions, and data structures. Whether you are coding in Python, JavaScript, or C++, strong logical thinking is key. Additionally, learning debugging techniques and best practices can significantly enhance your coding efficiency.",
       "account": {
-        "imgUrl": "https://example.com/user2.jpg",
+        "imgUrl": "",
         "name": "John Smith"
       },
-      "postImageUrl": "https://example.com/programming.jpg",
+      "postImageUrl": "https://i.ibb.co/pjzLghvW/4.jpg",
       "date": "2025-02-10"
     },
     {
@@ -30,10 +30,10 @@
       "description": "How design thinking shapes modern product development.",
       "text": "Design thinking is a problem-solving approach that emphasizes empathy, ideation, and iteration. It involves understanding the user's needs, brainstorming creative solutions, prototyping ideas, and testing them before final implementation. Companies like Apple and Google leverage design thinking to create user-friendly products that solve real-world problems efficiently.",
       "account": {
-        "imgUrl": "https://example.com/user3.jpg",
+        "imgUrl": "",
         "name": "Alice Johnson"
       },
-      "postImageUrl": "https://example.com/design-thinking.jpg",
+      "postImageUrl": "https://i.ibb.co/3mrRZf9N/7.webp",
       "date": "2025-02-09"
     },
     {
@@ -42,10 +42,10 @@
       "description": "Why UX research is critical for product success.",
       "text": "UX research helps designers understand user behavior, needs, and pain points. Methods like usability testing, surveys, and interviews provide insights into how users interact with products. A data-driven approach ensures that design decisions are based on real user needs rather than assumptions, leading to better experiences and higher user satisfaction.",
       "account": {
-        "imgUrl": "https://example.com/user4.jpg",
+        "imgUrl": "",
         "name": "Emily Brown"
       },
-      "postImageUrl": "https://example.com/ux-research.jpg",
+      "postImageUrl": "https://i.ibb.co/LdjjQbWG/8.jpg",
       "date": "2025-02-08"
     },
     {
@@ -57,7 +57,7 @@
         "imgUrl": "https://example.com/user5.jpg",
         "name": "Michael Davis"
       },
-      "postImageUrl": "https://example.com/web-dev.jpg",
+      "postImageUrl": "https://i.ibb.co/q3nWzhkP/1.jpg",
       "date": "2025-02-07"
     },
     {
@@ -69,7 +69,7 @@
         "imgUrl": "https://example.com/user6.jpg",
         "name": "Sophia Wilson"
       },
-      "postImageUrl": "https://example.com/ui-animation.jpg",
+      "postImageUrl": "https://i.ibb.co/3mrRZf9N/7.webp",
       "date": "2025-02-06"
     },
     {
@@ -81,7 +81,7 @@
         "imgUrl": "https://example.com/user7.jpg",
         "name": "Daniel White"
       },
-      "postImageUrl": "https://example.com/api-design.jpg",
+      "postImageUrl": "https://i.ibb.co/W1mYs0y/3.jpg",
       "date": "2025-02-05"
     },
     {
@@ -93,7 +93,7 @@
         "imgUrl": "https://example.com/user8.jpg",
         "name": "Olivia Martinez"
       },
-      "postImageUrl": "https://example.com/typography.jpg",
+      "postImageUrl": "https://i.ibb.co/F484rzRX/10.webp",
       "date": "2025-02-04"
     },
     {
@@ -105,7 +105,7 @@
         "imgUrl": "https://example.com/user9.jpg",
         "name": "James Anderson"
       },
-      "postImageUrl": "https://example.com/cybersecurity.jpg",
+      "postImageUrl": "https://i.ibb.co/rKkftbWt/2.jpg",
       "date": "2025-02-03"
     },
     {
@@ -117,7 +117,7 @@
         "imgUrl": "https://example.com/user10.jpg",
         "name": "Emma Johnson"
       },
-      "postImageUrl": "https://example.com/responsive-design.jpg",
+      "postImageUrl": "https://i.ibb.co/FqKXj9kS/9.jpg",
       "date": "2025-02-02"
     },
     {
@@ -129,7 +129,7 @@
         "imgUrl": "https://example.com/user11.jpg",
         "name": "User 11"
       },
-      "postImageUrl": "https://example.com/tech-trend-11.jpg",
+      "postImageUrl": "https://i.ibb.co/chyRTTDG/cs1.jpg",
       "date": "2025-02-10"
     },
     {
@@ -141,7 +141,7 @@
         "imgUrl": "https://example.com/user12.jpg",
         "name": "User 12"
       },
-      "postImageUrl": "https://example.com/tech-trend-12.jpg",
+      "postImageUrl": "https://i.ibb.co/LzCN04CB/cs2.jpg",
       "date": "2025-02-9"
     },
     {
@@ -153,7 +153,7 @@
         "imgUrl": "https://example.com/user13.jpg",
         "name": "User 13"
       },
-      "postImageUrl": "https://example.com/tech-trend-13.jpg",
+      "postImageUrl": "https://i.ibb.co/Y40ZW2DY/cs3.jpg",
       "date": "2025-02-8"
     },
     {
@@ -165,7 +165,7 @@
         "imgUrl": "https://example.com/user14.jpg",
         "name": "User 14"
       },
-      "postImageUrl": "https://example.com/tech-trend-14.jpg",
+      "postImageUrl": "https://i.ibb.co/jk1LMbLc/cs3.jpg",
       "date": "2025-02-7"
     },
     {
@@ -177,7 +177,7 @@
         "imgUrl": "https://example.com/user15.jpg",
         "name": "User 15"
       },
-      "postImageUrl": "https://example.com/tech-trend-15.jpg",
+      "postImageUrl": "https://i.ibb.co/4Z8rhTJd/cs4.jpg",
       "date": "2025-02-6"
     },
     {
@@ -189,7 +189,7 @@
         "imgUrl": "https://example.com/user16.jpg",
         "name": "User 16"
       },
-      "postImageUrl": "https://example.com/tech-trend-16.jpg",
+      "postImageUrl": "https://i.ibb.co/Q7WSmHHF/cs5.jpg",
       "date": "2025-02-5"
     },
     {
@@ -201,7 +201,7 @@
         "imgUrl": "https://example.com/user17.jpg",
         "name": "User 17"
       },
-      "postImageUrl": "https://example.com/tech-trend-17.jpg",
+      "postImageUrl": "https://i.ibb.co/W4KxgJKR/cs6.jpg",
       "date": "2025-02-4"
     },
     {
@@ -210,10 +210,10 @@
       "description": "Exploring the latest advancements in Cloud Computing.",
       "text": "The field of Cloud Computing continues to evolve, with new developments shaping the way we interact with technology. Businesses are adopting these technologies to enhance efficiency and innovation.",
       "account": {
-        "imgUrl": "https://example.com/user18.jpg",
+        "imgUrl": "",
         "name": "User 18"
       },
-      "postImageUrl": "https://example.com/tech-trend-18.jpg",
+      "postImageUrl": "https://i.ibb.co/RG4vFV5Y/cs6.jpg",
       "date": "2025-02-3"
     },
     {
@@ -225,7 +225,7 @@
         "imgUrl": "https://example.com/user19.jpg",
         "name": "User 19"
       },
-      "postImageUrl": "https://example.com/tech-trend-19.jpg",
+      "postImageUrl": "https://i.ibb.co/j9GRLyY5/cs8.jpg",
       "date": "2025-02-2"
     },
     {
@@ -234,10 +234,10 @@
       "description": "Exploring the latest advancements in AI.",
       "text": "The field of AI continues to evolve, with new developments shaping the way we interact with technology. Businesses are adopting these technologies to enhance efficiency and innovation.",
       "account": {
-        "imgUrl": "https://example.com/user20.jpg",
+        "imgUrl": "https://ibb.co/kggdvGJ7",
         "name": "User 20"
       },
-      "postImageUrl": "https://example.com/tech-trend-20.jpg",
+      "postImageUrl": "https://i.ibb.co/wN3hRnMb/cs10.jpg",
       "date": "2025-02-1"
     }
   ]

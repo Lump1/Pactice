@@ -1,8 +1,7 @@
-import { useSelector } from "react-redux"
-import styles from "./tags.module.css"
+import styles from "./sorting.module.css"
+import { useSelector } from "react-redux";
 
-export function TagsSelect({ dbWorker }) {
-    const tags = useSelector(state => state.posts?.tags);
+export function Sorting({ dbWorker }) {
     const actPageSelector = useSelector(state => state.posts?.actualPage);
     const filtersSelector = useSelector(state => state.posts?.searchFilters);
 
@@ -10,10 +9,10 @@ export function TagsSelect({ dbWorker }) {
         const value = event.target.value;
 
         if (value === "") {
-            dbWorker.clearFilter("theme");
+            dbWorker.clearFilter("sortType");
         }
 
-        let actFilters = { ...filtersSelector, theme: value };
+        let actFilters = { ...filtersSelector, sortType: value };
 
         dbWorker.getPosts(actPageSelector, actFilters);
     };
@@ -22,12 +21,8 @@ export function TagsSelect({ dbWorker }) {
         <div className={styles.customSelectContainer}>
             <select className={styles.customSelect} onChange={(ev) => inputChanged(ev)}>
                 <option value="" selected>Pick the option</option>
-                {
-                     tags.length > 0 && 
-                     tags.map(tag => {
-                        return (<option option={tag} >{tag}</option>)
-                    })
-                }
+                <option value="name">Sort by name</option>
+                <option value="date">Sort by date</option>
             </select>
         </div>
     )

@@ -59,17 +59,27 @@ app.get('/posts/:pageId/filters', async (req, res) => {
         returnable = searchByName(searchValue, returnable, 0.6);
     }
 
+    const pagesCount = Math.ceil(returnable.length / 8);
+
     const pageId = Number(req.params.pageId);
     returnable = returnable.filter((post, index) => index >= 8 * pageId && index < (8 * pageId) + 8);
 
-    res.json(returnable);
+    
+    res.json({
+        posts: returnable,
+        pagesCount: pagesCount
+    });
 });
 
 app.get('/posts/:pageId', async (req, res) => {
     await db.read();
+    const pagesCount = Math.ceil(db.data.posts.length / 8);
     const returnable = db.data.posts.filter((post, index) => index >= 8 * req.pageId && index < (8 * req.pageId) + 8);
 
-    res.json(returnable);
+    res.json({
+        posts: returnable,
+        pagesCount: pagesCount
+    });
 });
 
 
