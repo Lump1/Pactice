@@ -1,0 +1,78 @@
+.postContainer {
+    color: white;
+    width: 384px;
+    height: fit-content;
+    background-color: transparent;
+    text-align: start;
+}
+
+.postImage {
+    width: 384px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.accountImage {
+    clip-path: circle(40%);
+    object-fit: cover;
+    width: 18%;
+}
+
+.craftText, .descriptionText, .titleText {
+    margin: 0;
+}
+
+.titleText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descriptionText {
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(180, 180, 180);
+    margin-top: 10px;
+}
+
+.craftText {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(180, 180, 180);
+}
+
+
+
+
+.accountText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(180, 180, 180);
+}
+
+.pointerToBlog {
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.flexContainer, .accountContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    height: fit-content;
+}
+
+.accountContainer {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.flexContainerCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+}

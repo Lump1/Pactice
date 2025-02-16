@@ -1,0 +1,21 @@
+.postsContainer {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    /* padding: 50px; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.postsUpperContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80vw;
+    padding: 50px;
+    box-sizing: content-box;
+    gap: 100px;
+}

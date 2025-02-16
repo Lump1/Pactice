@@ -1,0 +1,31 @@
+
+.pagContainer {
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pagElement, .pagSelectedElement {
+    display: flex;
+    justify-content: center;
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.pagSelectedElement {
+    background-color: white;
+    color: black;
+}
+
+.pagElement {
+    background-color: transparent;
+    color: white;
+}
